@@ -1,0 +1,25 @@
+.container {
+  font-size: 25px;
+}
+
+.container button {
+  background-color: #d09a2a;
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  border: none;
+
+  font-size: 25px;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #b37a05;
+}
+
+.container button + button {
+  margin-left: 15px;
+}
